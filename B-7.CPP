@@ -92,8 +92,6 @@ int FindHeight(BstNode* root) {
 
 int main() {
   BstNode* root = NULL;
-  root = Insert(root , 50);
-  while(true) {
       cout << "1. Insert new node" << "\n";
       cout << "2. Find number of nodes in longest path" << "\n";
       cout << "3. Minimum data value in the tree" << "\n";
@@ -101,6 +99,7 @@ int main() {
       cout << "5. Search a value" << "\n";
       cout << "6. Diaply in Inorder" << "\n";
       cout << "7. Exit" << "\n";
+  while(true) {
       int o;
       cout << "Enter the any option : ";
       cin >> o;
